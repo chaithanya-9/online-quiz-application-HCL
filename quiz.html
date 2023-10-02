@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prothinkers quiz website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">PRO THINKERS</a>
+            <nav class="navbar">
+                <a href="#" class="active">Think like a Professional & Do like a Professional</a>
+                <!-- <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a> -->
+            </nav>
+        </header>
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Prothinkers Quiz</h1>
+                    <div class="quiz-header">
+                        <span>HTML Quiz </span>
+                        <span class="header-score">Score: 0 / 10</span>
+                    </div>
+                    <h2 class="question-text">1. What doeas HTML stand for?</h2>
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>A. Hyper Type Multi Language</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Hyper Text Multiple Language</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Hyper Text Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Home Text Multi Language</span>
+                        </div> -->
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 10 questions </span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Quiz Result!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">Your Score 0 out of 10</span>
+                    </div>
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Website</h1>
+                    <p> </p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="popup-info">
+        <h3>Quiz Guidelines</h3>
+        <span class="info">1. Each question has 4 choices.</span><br>
+        <span class="info">2. Time duration for each question will be 30 seconds.</span><br>
+        <span class="info">3. For each correct answer 1 mark will be awarded.</span><br>
+        <span class="info">4. No negative marking.</span><br>
+        <span class="info">5. Once you select your answer, it cannot be undone.</span>
+        <span class="info">6. Malpractice is not allowed.</span>
+        <span class="info">7. You cannot exit from the quiz while you are playing.</span>
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+
+
+        <script src="questions.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
